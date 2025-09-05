@@ -1,0 +1,5 @@
+{
+  "name": "PoWV Tracker",
+  "description": "An application to register electronic waste batches, claim, and retire Proof of Waste Value (PoWV) tokens based on physical evidence and on-chain validation.",
+  "requestFramePermissions": []
+}
