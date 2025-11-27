@@ -1,20 +1,82 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Proof of Waste Value (PoWV) – Waste Tracking & Tokenization Protocol
 
-# Run and deploy your AI Studio app
+PoWV is a next-generation protocol for traceability, verification and tokenization of waste streams using blockchain, IoT data and cryptographic proofs.
+This repository contains the PoWV Web App, a lightweight interface for registering batches, validating materials and interacting with PoWV tokens (PoWVT – RWA & PoWVX – Utility).
 
-This contains everything you need to run your app locally.
+🚀 What is PoWV?
 
-View your app in AI Studio: https://ai.studio/apps/drive/12jZ7ghmzPcZOernVkGc21nIzgBr8omE1
+PoWV (Proof of Waste Value) is a protocol that links physical waste operations to digital value, enabling:
 
-## Run Locally
+Verifiable waste tracking
 
-**Prerequisites:**  Node.js
+IoT-based measurement (MRV)
+
+Fraud-resistant batch validation
+
+Real-world asset (RWA) tokenization
+
+Dual-token model (RWA + Utility)
+
+Transparent lifecycle records on-chain
+
+It acts as a cryptographic trust layer for recycling cooperatives, industries, environmental projects and Web3 infrastructures.
+
+🧩 Features
+
+Batch Registration (images, metadata, GPS, weight, classification)
+
+Automatic Verification via MRV engine
+
+Oracles Layer for decentralized validation
+
+Tokenization Dashboard
+
+Transfer, Staking & Wallet Tools
+
+Dark/Light UI Mode
+
+🛠️ Tech Stack
+
+TypeScript / React
+
+Vite
+
+TailwindCSS / CSS Tokens
+
+EVM-compatible blockchain
+
+PoWV Smart Contracts (Solidity)
+
+IPFS / Hashing / Proof-of-Integrity
+
+IoT Integration Layer (optional)
+
+📦 Project Structure
+proof-of-waste-value/
+│
+├── components/      # UI components
+├── services/        # API, blockchain & utilities
+├── metadata.json    # Manifest + metadata
+├── App.tsx          # Main application
+├── index.tsx        # Entry point
+├── index.html
+└── README.md
+
+▶️ Running Locally
+npm install
+npm run dev
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Access: http://localhost:5173
+
+🧪 Build
+npm run build
+
+📄 License
+
+MIT — open for research, development and PoWV-based integrations.
+
+🌍 Author
+
+Gabriel de Almeida
+Multidisciplinary developer working with blockchain, applied AI and high-integrity data systems.
