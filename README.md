@@ -3,7 +3,7 @@ Proof of Waste Value (PoWV) – Waste Tracking & Tokenization Protocol
 PoWV is a next-generation protocol for traceability, verification and tokenization of waste streams using blockchain, IoT data and cryptographic proofs.
 This repository contains the PoWV Web App, a lightweight interface for registering batches, validating materials and interacting with PoWV tokens (PoWVT – RWA & PoWVX – Utility).
 
-🚀 What is PoWV?
+What is PoWV?
 
 PoWV (Proof of Waste Value) is a protocol that links physical waste operations to digital value, enabling:
 
@@ -21,7 +21,7 @@ Transparent lifecycle records on-chain
 
 It acts as a cryptographic trust layer for recycling cooperatives, industries, environmental projects and Web3 infrastructures.
 
-🧩 Features
+Features
 
 Batch Registration (images, metadata, GPS, weight, classification)
 
@@ -35,7 +35,7 @@ Transfer, Staking & Wallet Tools
 
 Dark/Light UI Mode
 
-🛠️ Tech Stack
+Tech Stack
 
 TypeScript / React
 
@@ -51,7 +51,7 @@ IPFS / Hashing / Proof-of-Integrity
 
 IoT Integration Layer (optional)
 
-📦 Project Structure
+project Structure
 proof-of-waste-value/
 │
 ├── components/      # UI components
@@ -62,21 +62,21 @@ proof-of-waste-value/
 ├── index.html
 └── README.md
 
-▶️ Running Locally
+Running Locally
 npm install
 npm run dev
 
 
 Access: http://localhost:5173
 
-🧪 Build
+Build
 npm run build
 
-📄 License
+License
 
 MIT — open for research, development and PoWV-based integrations.
 
-🌍 Author
+Author
 
 Gabriel de Almeida
 Multidisciplinary developer working with blockchain, applied AI and high-integrity data systems.
