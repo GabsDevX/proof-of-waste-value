@@ -74,7 +74,13 @@ npm run build
 
 License
 
-MIT — open for research, development and PoWV-based integrations.
+## Contact
+
+Security reports should be sent to the official PoWV Protocol security contact:
+
+powv.protocol@proton.me
+
+A dedicated security domain email may be introduced in future infrastructure upgrades.
 
 Author
 
